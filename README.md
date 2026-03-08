@@ -7,7 +7,7 @@ Este proyecto combina el alto rendimiento de **C** para el cálculo probabilíst
 ## Características Principales
 
 * **Backend (C):** Implementación manual del Muestreo de Gibbs. Gestión dinámica de memoria mediante punteros para procesar eficientemente matrices de documentos y palabras sin depender de librerías externas para la matemática central.
-* **Pipeline NLP (Python):** Preprocesamiento de texto avanzado utilizando `spaCy` y `NLTK`. Incluye limpieza, lematización, eliminación de stopwords y vectorización del corpus.
+* **Pipeline NLP (Python):** Preprocesamiento de texto utilizando `spaCy` y `NLTK`. Incluye limpieza, lematización, eliminación de stopwords y vectorización del corpus.
 * **Evaluación Automática:** Cálculo de la métrica de Entropía para evaluar modelos y sugerir matemáticamente el número óptimo de tópicos (K) en un conjunto de datos.
 * **Interfaz Gráfica (GUI):** Entorno visual interactivo construido con `CustomTkinter` que permite cargar documentos, ajustar hiperparámetros (Alpha, Beta, iteraciones) y visualizar los gráficos de convergencia y las palabras clave de forma intuitiva.
 
