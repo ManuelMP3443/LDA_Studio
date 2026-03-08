@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+*.exe
+*.o
+*.out
+*.dll
+*.so
+
+LDA_studio/LDA Studio.exe
+
+
+*.csv
+*.tsv
+
+
+*.pdf
+
+!Manual de Usuario LDA.pdf
+ejemplos/Chat_gpt
+ejemplos/don quijote/capitulos_pdf/
+ejemplos/hornos_hitler/capitulos_pdf/
